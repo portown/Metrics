@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="jp.portown.metrics.Metrics.actionSet">
+         <menu
+               id="Metrics"
+               label="%menu_group"
+               path="tool/Metrics">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="jp.portown.metrics.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/Metrics/"
+               id="Metrics">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
